@@ -20,7 +20,7 @@ Anime.AnimeInfo("rezero").then((anime) => {
 #2
 ```javascript
 // requiring the package
-const { Anime } = require('.')
+const { Anime } = require('an-anime-scraper')
 // using the AnimeInfo() method get anime data
 Anime.AnimeInfo("rezero").then((anime) => {
     // all returned properties -> cover, episodeCount, genre, name, otherName, releasedDate, status, summary, type
@@ -34,7 +34,7 @@ Anime.AnimeInfo("rezero").then((anime) => {
 or
 ```javascript
 // requiring the package
-const { Anime } = require('.')
+const { Anime } = require('an-anime-scraper')
 // using the AnimeInfo() method get anime data
 Anime.AnimeInfo("rezero").then((anime) => {
     // getting all properties at once with for in loop
