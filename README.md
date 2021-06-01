@@ -11,7 +11,7 @@ an-anime-scraper is a scraper created to make anime scraping easier and implemen
 ```javascript
 // requiring the package
 const { Anime } = require('an-anime-scraper')
-// using the AnimeInfo() method get anime data
+// using the AnimeInfo() method to get anime data
 Anime.AnimeInfo("rezero").then((anime) => {
     console.log(anime)
 })
@@ -21,7 +21,7 @@ Anime.AnimeInfo("rezero").then((anime) => {
 ```javascript
 // requiring the package
 const { Anime } = require('an-anime-scraper')
-// using the AnimeInfo() method get anime data
+// using the AnimeInfo() method to get anime data
 Anime.AnimeInfo("rezero").then((anime) => {
     // all returned properties -> cover, episodeCount, genre, name, otherName, releasedDate, status, summary, type
     let name = anime.name
@@ -35,7 +35,7 @@ or
 ```javascript
 // requiring the package
 const { Anime } = require('an-anime-scraper')
-// using the AnimeInfo() method get anime data
+// using the AnimeInfo() method to get anime data
 Anime.AnimeInfo("rezero").then((anime) => {
     // getting all properties at once with for in loop
     for (let key in anime){
@@ -56,7 +56,7 @@ Anime.AnimeInfo()   // Gets info of an anime with name. Is slower but better
 Anime.AnimeInfoFetch()   // Gets info of an anime with name. Faster than (Anime#AnimeInfo) but is somewhat case-sensitive 
 ```
 ```javascript
-Anime.GetEpisodes()   // Gets all episode links of an anime season. Takes (name)/(valid link) as parameter
+Anime.GetEpisodes()   // Gets all episode links of an anime season. Takes (name) as parameter
 ```
 
 # Dependencies
