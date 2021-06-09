@@ -1,0 +1,34 @@
+{
+  "name": "an-anime-scraper",
+  "version": "2.0.0",
+  "description": "A simple anime scraper which provides info on specified animes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzYuzuruYT/an-anime-scraper.git"
+  },
+  "keywords": [
+    "anime",
+    "scraper",
+    "anime",
+    "scraper",
+    "an-anime-scraper",
+    "an",
+    "anime",
+    "scraper"
+  ],
+  "author": "ItzYuzuru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItzYuzuruYT/an-anime-scraper/issues"
+  },
+  "homepage": "https://github.com/ItzYuzuruYT/an-anime-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "node-fetch": "^2.6.1"
+  }
+}
