@@ -98,7 +98,9 @@ Anime.getEpLinks()   // Gets all episode links of the provided anime URL
 Anime.getInfo()   // Gets data of an anime by URL
 ```
 
+
 # Update Changes (2.0.0):
+[![npm version](https://badge.fury.io/js/an-anime-scraper.svg)](https://npmjs.com/package/an-anime-scraper)
 - Added new method searchAnime
 - GetEpisodes method is now getEpLinks
 - animeInfoFetch method can now take url as a parameter by setting second parameter true
